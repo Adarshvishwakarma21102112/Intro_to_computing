@@ -61,7 +61,7 @@ while count <= gamenumber:
 #____________________________________________________________________________________________________________________________________
 
 print("\nAns 4")
-x=500                          #we know candies are less than 200
+x=200                          #we know candies are less than 200
 for candies in range (x):                     #we use range function using for 
     if candies%5==2:                 # if candies are divide by 5 reminder should be 2
         if candies%6==3:             # if candies are divide by 6 reminder should be 3
